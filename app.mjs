@@ -8,7 +8,7 @@ app.get('', async (req, res) => {
         const response = await fetch('https://api.api-futebol.com.br/v1/campeonatos/14', {
             method: 'GET',
             headers: {
-                'Authorization': 'Bearer live_2a6ecb947849b118e38bd1f1a3aa62'
+                'Authorization': 'Bearer (private key)'
             }
         });
 
